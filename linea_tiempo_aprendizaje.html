@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Línea del Tiempo de Aprendizaje</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="relative pt-24 pb-20 px-4 overflow-hidden">
+    <div
+      class="max-w-5xl mx-auto glass-card p-12 flex flex-row items-center justify-center gap-12 header-flex border-white/25">
+      <div class="relative">
+        <div class="absolute inset-0 bg-indigo-500 blur-3xl opacity-20 rounded-full"></div>
+        <img src="https://github.com/andresalban.png" alt="Foto de Perfil" class="profile-img-side relative z-10" />
+      </div>
+
+      <div class="text-left header-text">
+        <h1 class="text-6xl font-extrabold mb-4 text-gray-900 leading-tight tracking-tight">
+          Proceso de <span class="gradient-text">Aprendizaje</span>
+        </h1>
+        <p class="text-xl text-gray-600 font-medium max-w-2xl leading-relaxed">
+          Mi evolución académica y desarrollo de competencias desde la
+          infancia hasta la actualidad profesional.
+        </p>
+        <div class="mt-8 flex gap-4 justify-start flex-wrap">
+          <span
+            class="bg-indigo-50 text-indigo-600 px-6 py-2.5 rounded-full text-sm font-bold shadow-sm border border-indigo-100">Telemática
+            Finalizada</span>
+          <span
+            class="bg-purple-50 text-purple-600 px-6 py-2.5 rounded-full text-sm font-bold shadow-sm border border-purple-100">Lic.
+            en Tecnología</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Timeline Section -->
+  <div class="timeline-container">
+    <!-- Etapa 1 -->
+    <div class="timeline-item left">
+      <div class="content glass-card">
+        <span class="tag">6 - 11 Años</span>
+        <h3 class="text-2xl font-bold mb-5 text-gray-800">
+          Educación Primaria
+        </h3>
+
+        <div class="grid grid-cols-1 gap-6">
+          <div>
+            <p class="section-title">
+              <i class="fas fa-calculator"></i> Lógico Matemática
+            </p>
+            <div class="list-item">
+              <i class="fas fa-plus-circle text-green-500 mt-1"></i>
+              <span>Suma, resta e interés en juegos numéricos.</span>
+            </div>
+            <div class="list-item">
+              <i class="fas fa-minus-circle text-red-400 mt-1"></i>
+              <span>Dificultad en problemas escritos y operaciones largas.</span>
+            </div>
+          </div>
+          <div>
+            <p class="section-title">
+              <i class="fas fa-book-open"></i> Lecto-Escritura & Oral
+            </p>
+            <div class="list-item">
+              <i class="fas fa-check text-green-500 mt-1"></i>
+              <span>Lectura fluida de textos cortos.</span>
+            </div>
+            <div class="list-item">
+              <i class="fas fa-exclamation-triangle text-red-400 mt-1"></i>
+              <span>Poco vocabulario y nervios al hablar.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="conclusion-box">
+          <p class="text-xs font-black text-indigo-600 uppercase mb-1 tracking-widest">
+            Conclusión
+          </p>
+          <p class="text-gray-700 text-sm italic leading-relaxed">
+            En esta etapa inicié el desarrollo de habilidades básicas de
+            lectura, cálculo y comunicación oral.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Etapa 2 -->
+    <div class="timeline-item right">
+      <div class="content glass-card">
+        <span class="tag">12 - 15 Años</span>
+        <h3 class="text-2xl font-bold mb-5 text-gray-800">
+          Básica Secundaria
+        </h3>
+
+        <div class="grid grid-cols-1 gap-6">
+          <div>
+            <p class="section-title">
+              <i class="fas fa-percentage"></i> Lógico Matemática
+            </p>
+            <div class="list-item">
+              <i class="fas fa-plus-circle text-green-500 mt-1"></i>
+              <span>Fracciones, ecuaciones básicas y patrones.</span>
+            </div>
+            <div class="list-item">
+              <i class="fas fa-minus-circle text-red-400 mt-1"></i>
+              <span>Dificultad en geometría y problemas complejos.</span>
+            </div>
+          </div>
+          <div>
+            <p class="section-title">
+              <i class="fas fa-comments"></i> Lecto-Escritura & Oral
+            </p>
+            <div class="list-item">
+              <i class="fas fa-check text-green-500 mt-1"></i>
+              <span>Comprensión narrativa y capacidad de resumen.</span>
+            </div>
+            <div class="list-item">
+              <i class="fas fa-exclamation-triangle text-red-400 mt-1"></i>
+              <span>Dificultad en textos científicos e inseguridad oral.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="conclusion-box">
+          <p class="text-xs font-black text-indigo-600 uppercase mb-1 tracking-widest">
+            Conclusión
+          </p>
+          <p class="text-gray-700 text-sm italic leading-relaxed">
+            Durante esta etapa mejoré el razonamiento lógico y la
+            interpretación de textos académicos.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Etapa 3 -->
+    <div class="timeline-item left">
+      <div class="content glass-card">
+        <span class="tag">16 - 19 Años</span>
+        <h3 class="text-2xl font-bold mb-5 text-gray-800">Educación Media</h3>
+        <p class="text-sm text-indigo-600 font-bold mb-5 italic">
+          Bachiller Académico con profundizacion en el campo de la educacion y
+          formacion pedagogica (Finalizado)
+        </p>
+        <p class="text-sm text-indigo-600 font-bold mb-5 italic">
+          Escuela Normal Superior de Popayán
+        </p>
+
+        <div class="grid grid-cols-1 gap-6">
+          <div>
+            <p class="section-title">
+              <i class="fas fa-square-root-variable"></i> Lógico Matemática
+            </p>
+            <div class="list-item">
+              <i class="fas fa-plus-circle text-green-500 mt-1"></i>
+              <span>Uso seguro de fórmulas y mayor razonamiento.</span>
+            </div>
+            <div class="list-item">
+              <i class="fas fa-minus-circle text-red-400 mt-1"></i>
+              <span>Limitaciones en cálculo y álgebra avanzada.</span>
+            </div>
+          </div>
+          <div>
+            <p class="section-title">
+              <i class="fas fa-pen-nib"></i> Lecto-Escritura & Oral
+            </p>
+            <div class="list-item">
+              <i class="fas fa-check text-green-500 mt-1"></i>
+              <span>Mejor análisis académico y claridad de opinión.</span>
+            </div>
+            <div class="list-item">
+              <i class="fas fa-exclamation-triangle text-red-400 mt-1"></i>
+              <span>Dificultad para argumentar ideas complejas.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="conclusion-box">
+          <p class="text-xs font-black text-indigo-600 uppercase mb-1 tracking-widest">
+            Conclusión
+          </p>
+          <p class="text-gray-700 text-sm italic leading-relaxed">
+            En esta etapa fortalecí el análisis matemático y la participación
+            académica.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Etapa 4 -->
+    <div class="timeline-item right">
+      <div class="content glass-card border-l-[10px] border-indigo-500">
+        <span class="tag" style="background: #6366f1">Hito Profesional</span>
+        <h3 class="text-2xl font-bold mb-2 text-gray-800">
+          Formación Universitaria
+        </h3>
+        <p class="text-sm text-indigo-600 font-bold mb-5 italic">
+          Tecnología en Telemática (Finalizada)
+        </p>
+        <p class="text-sm text-indigo-600 font-bold mb-5 italic">
+          Universidad del Cauca
+        </p>
+
+        <div class="grid grid-cols-1 gap-6">
+          <div>
+            <p class="section-title">
+              <i class="fas fa-server"></i> Lógico Matemática
+            </p>
+            <div class="list-item">
+              <i class="fas fa-plus-circle text-green-500 mt-1"></i>
+              <span>Pensamiento analítico aplicado a redes y sistemas.</span>
+            </div>
+            <div class="list-item">
+              <i class="fas fa-minus-circle text-red-400 mt-1"></i>
+              <span>Necesidad de refuerzo en cálculo avanzado.</span>
+            </div>
+          </div>
+          <div>
+            <p class="section-title">
+              <i class="fas fa-headset"></i> Lecto-Escritura & Oral
+            </p>
+            <div class="list-item">
+              <i class="fas fa-check text-green-500 mt-1"></i>
+              <span>Comprensión técnica y explicación de procesos.</span>
+            </div>
+            <div class="list-item">
+              <i class="fas fa-exclamation-triangle text-red-400 mt-1"></i>
+              <span>Nervios en presentaciones formales masivas.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="conclusion-box">
+          <p class="text-xs font-black text-indigo-600 uppercase mb-1 tracking-widest">
+            Conclusión
+          </p>
+          <p class="text-gray-700 text-sm italic leading-relaxed">
+            La formación en Telemática fortaleció mis competencias
+            tecnológicas y mi capacidad de análisis.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Actualidad -->
+    <div class="timeline-item left">
+      <div class="content glass-card border-l-[10px] border-pink-500">
+        <span class="tag" style="background: var(--primary-gradient)">Presente</span>
+        <h3 class="text-2xl font-bold mb-5 text-gray-800">
+          Actualidad Académica
+        </h3>
+
+        <div class="grid grid-cols-1 gap-6">
+          <div>
+            <p class="section-title" style="color: #ec4899">
+              <i class="fas fa-trophy"></i> Fortalezas Generales
+            </p>
+            <div class="list-item">
+              <i class="fas fa-check-double text-pink-500 mt-1"></i>
+              <span>Disciplina, responsabilidad y aprendizaje autónomo.</span>
+            </div>
+            <div class="list-item">
+              <i class="fas fa-check-double text-pink-500 mt-1"></i>
+              <span>Pensamiento crítico y comunicación en entornos TIC.</span>
+            </div>
+          </div>
+          <div>
+            <p class="section-title" style="color: #ec4899">
+              <i class="fas fa-rocket"></i> Por Mejorar
+            </p>
+            <div class="list-item">
+              <i class="fas fa-bullseye text-pink-400 mt-1"></i>
+              <span>Seguridad al hablar en público y oratoria fluida.</span>
+            </div>
+            <div class="list-item">
+              <i class="fas fa-bullseye text-pink-400 mt-1"></i>
+              <span>Práctica de lógica matemática avanzada.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="conclusion-box" style="
+              background: rgba(236, 72, 153, 0.08);
+              border-left-color: #ec4899;
+            ">
+          <p class="text-xs font-black text-pink-600 uppercase mb-1 tracking-widest">
+            Estado del Proceso
+          </p>
+          <p class="text-gray-700 text-sm italic leading-relaxed">
+            Perfil híbrido con base tecnológica sólida y en constante
+            fortalecimiento de mis habilidades académicas y profesionales con
+            un enfoque pedagógico en perfeccionamiento.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Simple Footer -->
+  <footer class="py-12 px-4 mt-8">
+    <div
+      class="max-w-4xl mx-auto glass-card p-8 flex flex-col md:flex-row items-center justify-between gap-6 border-white/20">
+      <div class="text-center md:text-left">
+        <h5 class="text-gray-900 font-bold text-sm tracking-widest uppercase">
+          Andrés Felipe Albán Díaz
+        </h5>
+        <p class="text-gray-500 text-xs mt-1">
+          Lic. en Tecnología e Informática &bull; 2026
+        </p>
+      </div>
+
+      <div class="flex gap-6">
+        <a href="https://github.com/andresalban" target="_blank" class="simple-footer-btn"><i
+            class="fab fa-github"></i></a>
+      </div>
+
+      <div class="text-center md:text-right">
+        <p class="text-gray-400 text-[10px] font-black uppercase tracking-widest">
+          Lecturas Contemporáneas De La Educación
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
